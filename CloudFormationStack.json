@@ -216,7 +216,7 @@
           "Properties": {
           "ImageId"            : "ami-55ef662f",
           "InstanceType"       : "t2.micro",
-          "KeyName"            : "COKE2",
+          "KeyName"            : "SP1",
           "NetworkInterfaces" : [{
           "AssociatePublicIpAddress" : "true",
           "DeviceIndex"              : "0",
@@ -231,7 +231,7 @@
           "Properties": {
           "ImageId"            : "ami-55ef662f",
           "InstanceType"       : "t2.micro",
-          "KeyName"            : "COKE2",
+          "KeyName"            : "SP1",
           "NetworkInterfaces" : [{
           "AssociatePublicIpAddress" : "true",
           "DeviceIndex"              : "0",
