@@ -24,7 +24,6 @@
 			}
 		}
 	},
-	
 	"Parameters": {
 		"VPCCIDR": {
 			"AllowedPattern": "^(([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9]{2}|2[0-4][0-9]|25[0-5])(\\/(1[6-9]|2[0-8]))$",
@@ -215,30 +214,30 @@
 		"WebServer": {
           "Type": "AWS::EC2::Instance",  
           "Properties": {
-          "ImageId"            : "ami-55ef662f",
+          "ImageId"            : "ami-14c5486b",
           "InstanceType"       : "t2.micro",
-          "KeyName"            : "SP1",
+          "KeyName"            : "NTT",
           "NetworkInterfaces" : [{
           "AssociatePublicIpAddress" : "true",
           "DeviceIndex"              : "0",
           "DeleteOnTermination"      : "true",
-          "SubnetId"                 : "subnet-d7454edb",
-          "GroupSet"                 : [ "sg-914fcae4" ]
+          "SubnetId"                 : "subnet-009cafd26f6a407b7",
+          "GroupSet"                 : [ "sg-003236147f97fecc3" ]
 		  }]
       }
     },
 	    "WebServer2": {
           "Type": "AWS::EC2::Instance",  
           "Properties": {
-          "ImageId"            : "ami-55ef662f",
+          "ImageId"            : "ami-14c5486b",
           "InstanceType"       : "t2.micro",
-          "KeyName"            : "SP1",
+          "KeyName"            : "NTT",
           "NetworkInterfaces" : [{
           "AssociatePublicIpAddress" : "true",
           "DeviceIndex"              : "0",
           "DeleteOnTermination"      : "true",
-          "SubnetId"                 : "subnet-d7454edb",
-          "GroupSet"                 : [ "sg-914fcae4" ]
+          "SubnetId"                 : "subnet-009cafd26f6a407b7",
+          "GroupSet"                 : [ "sg-003236147f97fecc3" ]
 		  }]
       }
     }
