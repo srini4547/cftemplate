@@ -46,6 +46,10 @@
 			"Description": "Network allowed to ssh to instances in public subnet.",
 			"Type": "String"
 		}
+		"KeyPair": {
+  		"Description": "The name of the keypair to use for SSH access",
+  		"Type": "AWS::EC2::KeyPair::KeyName"
+		},
 	},
 	"Mappings": {
 		
