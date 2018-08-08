@@ -214,9 +214,9 @@
 		"testserver": {
           "Type": "AWS::EC2::Instance",  
           "Properties": {
-          "ImageId"            : "ami-40142d25",
+          "ImageId"            : "ami-0ad99772",
           "InstanceType"       : "t2.micro",
-          "KeyName"            : "ohio",
+          "KeyName"            : "oregon",
           "NetworkInterfaces" : [{
           "AssociatePublicIpAddress" : "true",
           "DeviceIndex"              : "0",
