@@ -210,26 +210,7 @@
 					}
 				}]
 			}
-		},
-		"testserver": {
-          "Type": "AWS::EC2::Instance",  
-          "Properties": {
-          "ImageId"            : "ami-0ad99772",
-          "InstanceType"       : "t2.micro",
-          "KeyName"            : "oregon",
-          "NetworkInterfaces" : [{
-          "AssociatePublicIpAddress" : "true",
-          "DeviceIndex"              : "0",
-          "DeleteOnTermination"      : "true",
-          "SubnetId"                 : {"Ref" : "PublicSubnet"},
-			"GroupSet"                 : [{ "Ref" : "PublicInstanceSG" }]
-		  }],
-		  "Tags": [{
-					"Key": "Name",
-					"Value": "Addmachine"
-				}]		  
-      }	  
-    }
+		}
 	},
 	"Outputs": {
 		"VPCId": {
